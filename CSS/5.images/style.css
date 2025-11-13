@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+/* background-image: url("img/pexels-svitlana-shakalova-1789851085-31875436.jpg"); */
+  height: 500px;
+  width: 500px;
+  background-image: url("https://images.pexels.com/photos/13611181/pexels-photo-13611181.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
