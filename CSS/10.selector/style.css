@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p::first-letter {
+  font-size: 50px;
+  color: rgb(137, 18, 248);
+}
+
+.list::first-line {
+  color: rgb(189, 11, 165);
+  font-size: 60px;
+}
+
+/* pseudo classes */
+
+.list li:first-child {
+  font-family: inherit;
+}
+
+.list li:last-child {
+  font-style: bold;
+}
+
+.list li:nth-child(3) {
+  color: rgb(1, 233, 250);
+}

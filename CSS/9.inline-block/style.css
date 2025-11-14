@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.inline {
+  display: inline;
+  background-color: rgb(137, 73, 255);
+  border: 2px solid rgb(253, 171, 171);
+
+  /* there is no effect of these properties which contain  display-inline */
+  height: 500px;
+  width: 500px;
+}
+
+.block {
+  display: block;
+  background-color: rgb(252, 93, 244);
+  border: 2px solid rgb(131, 255, 183);
+
+  /* there will be effect of these properties which contain  display-block */
+  height: 200px;
+  width: 200px;
+}
+
+.inline-block {
+  display: block;
+  background-color: rgb(240, 163, 49);
+  border: 2px solid rgb(255, 54, 54);
+
+  /* there will be effect of these properties which contain  display:inline-block */
+  height: 200px;
+  width: 200px;
+}
